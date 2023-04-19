@@ -742,6 +742,27 @@ footer {
 
 
 @media (max-width:530px) {
+    
+    
+    
+    #home-main-section::before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    /* opacity:0.9; */
+    height: ;
+    float: right;
+    width: 100%;
+    z-index: -1;
+    height:70vh;
+    background-blend-mode: screen;
+    ;
+
+}
 
     .bar1 {
         display: block;
